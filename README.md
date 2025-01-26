@@ -14,20 +14,20 @@
 ---
 **Project installation steps**
 1. Clone git repo or download zip file from [Here](https://github.com/AnkitGon/qa-touch)
-2. Navigate to the Project Directory
+2. Navigate to the Project Directory <br>
   `cd qa-touch`
-3. Install Dependencies
+3. Install Dependencies <br>
   `composer install` <br>
   `npm install`
-4. Set Up Environment Variables
+4. Set Up Environment Variables <br>
   `cp .env.example .env`
 5. Update the `.env` file with your local settings: <br>
   `DB_DATABASE=your_database_name`  <br>
   `DB_USERNAME=your_database_user` <br>
   `DB_PASSWORD=your_database_password`
- 6. Generate the Application Key
+ 6. Generate the Application Key <br>
  `php artisan key:generate`
- 7. Create database and run migration
+ 7. Create database and run migration <br>
  `php artisan migrate`
 ---
  * To use my Google OAuth configuration, please run the project at the following [URL](http://localhost/qa-touch) URL with the project name set to **'qa-touch'**. Alternatively, you may configure your own OAuth settings in the Google Developer Console and update the project accordingly."
