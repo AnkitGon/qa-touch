@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.10.2",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.1",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.15",
+        "lodash": "^4.17.19",
+        "postcss": "^8.5.1",
+        "sass": "^1.32.11",
+        "tailwindcss": "^3.4.17",
+        "vite": "^3.0.0",
+        "vue": "^3.2.37",
+        "vue-loader": "^17.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.7.2",
+        "@fortawesome/free-solid-svg-icons": "^6.7.2",
+        "@fortawesome/vue-fontawesome": "^3.0.8",
+        "sweetalert2": "^11.15.10",
+        "toastr": "^2.1.4",
+        "vue": "^3.5.13",
+        "vue-loading-overlay": "6.0",
+        "vue-router": "^4.5.0",
+        "vuedraggable": "^4.1.0"
+    }
+}
