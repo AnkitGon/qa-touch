@@ -1,9 +1,9 @@
 
 ## Flask Task Crud Application
 
-**Project Name**: Hierarchical Tree and Test Cases
-**Motive**: Technical interview
-**Frontend**: HTML, CSS, Vue.js
+**Project Name**: Hierarchical Tree and Test Cases <br>
+**Motive**: Technical interview <br>
+**Frontend**: HTML, CSS, Vue.js  <br>
 **Backend**: Laravel
 
 ---
