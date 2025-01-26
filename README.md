@@ -13,7 +13,7 @@
 3. Test Case CRUD  
 ---
 **Project installation steps**
-1. Clone git repo or download zip file from [Here](https://github.com/AnkitGon/qa-touch)
+1. Clone git repo or download zip file
 2. Navigate to the Project Directory <br>
   `cd qa-touch`
 3. Install Dependencies <br>
