@@ -17,13 +17,13 @@
 2. Navigate to the Project Directory
   `cd qa-touch`
 3. Install Dependencies
-  `composer install`
+  `composer install` <br>
   `npm install`
 4. Set Up Environment Variables
   `cp .env.example .env`
-5. Update the `.env` file with your local settings:
-  `DB_DATABASE=your_database_name` 
-  `DB_USERNAME=your_database_user`
+5. Update the `.env` file with your local settings: <br>
+  `DB_DATABASE=your_database_name`  <br>
+  `DB_USERNAME=your_database_user` <br>
   `DB_PASSWORD=your_database_password`
  6. Generate the Application Key
  `php artisan key:generate`
