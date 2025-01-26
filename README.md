@@ -1,7 +1,7 @@
 
-## Flask Task Crud Application
+## Hierarchical Tree and Test Cases
 
-**Project Name**: Hierarchical Tree and Test Cases <br>
+**Project Name**: Qa Touch <br>
 **Motive**: Technical interview <br>
 **Frontend**: HTML, CSS, Vue.js  <br>
 **Backend**: Laravel
